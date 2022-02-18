@@ -1,0 +1,33 @@
+{
+  "name": "@smb-org/eslint-config-vue-ts",
+  "version": "0.0.1",
+  "description": "eslint config for vite vue-ts",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SuperMrBean/eslint-config-vue-ts.git"
+  },
+  "files": [
+    "**/*.js",
+    "**/*.json"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "vue",
+    "typescript",
+    "vite"
+  ],
+  "author": "superMrBean",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "@vue/eslint-config-airbnb": "^5.1.0",
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-vue": "^7.1.0"
+  }
+}
